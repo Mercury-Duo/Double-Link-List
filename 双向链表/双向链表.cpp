@@ -19,7 +19,7 @@ typedef struct Node {
 	 NewNode->next = NULL;
 	 return NewNode;
  }
- void InsertNode(LPNode HeadNode, int data) {
+ void InsertNode(LPNode HeadNode, int data) {//插入
 	 LPNode NewNode = CreatNewNode(data);
 	 if (HeadNode->next == NULL) {
 		 HeadNode->next = NewNode;
